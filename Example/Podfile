@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CLAPIsKits_Example' do
+  pod 'CLAPIsKits', :path => '../'
+
+  target 'CLAPIsKits_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
