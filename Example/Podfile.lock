@@ -1,15 +1,42 @@
 PODS:
-  - CLAPIsKits (0.1.0)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CLAPIsKits (0.1.0):
+    - AFNetworking
+    - FMDB
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
 
 DEPENDENCIES:
   - CLAPIsKits (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - FMDB
 
 EXTERNAL SOURCES:
   CLAPIsKits:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CLAPIsKits: 48829610a6f0a81d8dc9185794a4e6fea9b813c8
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CLAPIsKits: 4415f113f2d048d3a9b9719a976db35b6ebdac32
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
 
 PODFILE CHECKSUM: b6afd0b18f02dbcd2f19645a2bc3aae1a41973e8
 

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of CLAPIsKits.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/changle0821@163.com/CLAPIsKits",
+  "homepage": "https://github.com/zhengChangLe/CLAPIsKits",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,19 @@
     "changle0821@163.com": "zhengchangle@berchina.com"
   },
   "source": {
-    "git": "https://github.com/changle0821@163.com/CLAPIsKits.git",
+    "git": "https://github.com/zhengChangLe/CLAPIsKits.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CLAPIsKits/Classes/**/*"
+  "source_files": "CLAPIsKits/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "FMDB": [
+
+    ]
+  }
 }
