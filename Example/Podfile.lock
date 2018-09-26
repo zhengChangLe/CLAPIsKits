@@ -1,0 +1,16 @@
+PODS:
+  - CLAPIsKits (0.1.0)
+
+DEPENDENCIES:
+  - CLAPIsKits (from `../`)
+
+EXTERNAL SOURCES:
+  CLAPIsKits:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CLAPIsKits: 48829610a6f0a81d8dc9185794a4e6fea9b813c8
+
+PODFILE CHECKSUM: b6afd0b18f02dbcd2f19645a2bc3aae1a41973e8
+
+COCOAPODS: 1.5.3
